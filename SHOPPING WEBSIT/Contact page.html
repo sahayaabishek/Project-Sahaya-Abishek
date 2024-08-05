@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT PAGE</title>
+    <link rel="stylesheet" href="shopping webpage.css">
+</head>
+<body>
+
+     <!-- nav bar -->
+  <ul>
+    <li><alt="Logo"></li> 
+    <li><a class="active" href="#HOME">HOME</a></li>
+    <li><a class="active" href="Product page.html">PRODUCT</a></li>
+    <li><a class="active" href="About page.html">ABOUTUS</a></li>
+    <li><a class="active" href="Contact page.html">CONTACT</a></li>
+  </ul><br><br>
+    
+    
+    <br><br>
+
+    <center><div class="contact-container">
+        <h1>Contact Us</h1>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div></center>
+
+    
+</body>
+</html>
